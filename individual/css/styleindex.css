@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500&family=Montserrat:ital,wght@0,300;1,100&family=Roboto+Condensed:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/programacao.jpg");
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+/* CABEÇALHO - MENU */
+
+.container-menu {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.logotipo {
+    color: #63F5FF;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span {
+    background-color: #63F5FF;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.frase {
+    font-family: ustify;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 8px 0 8px 0;
+    padding: 8px;
+}
+
+.texto-frase {
+    font-style: italic;
+}
+
+
+/*CORPO DO SITE*/
+
+.corpo-site {
+    margin-top: 24px;
+    backdrop-filter: blur(3px);
+}
+
+.titulo {
+    color: #63F5FF;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.campo-textual {
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 64px 0 64px;
+    color: white;
+}
+
+a {
+    color: white;
+    margin: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    border: solid 1px #63F5FF;
+    text-decoration: none;
+    display: inline-block;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contato {
+    text-align: center;
+}
+
+input {
+    margin: 8px;
+    padding: 8px 8px 8px 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 8px;
+}
+
+textarea {
+    margin: 8px auto;
+    padding: 16px 8px 16px 8px;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 8px;
+}
+
+button {
+    margin-bottom: 24px;
+    color: black;
+    background-color: #63F5FF;
+    padding: 8px;
+    border: solid 1px black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/*RODAPÉ*/
+
+.rodape {
+    background-color: black;
+    color: #63F5FF;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
